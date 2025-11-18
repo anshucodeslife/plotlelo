@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Fix Leaflet Z-Index issues */
+.leaflet-pane {
+  z-index: 0 !important;
+}
+.leaflet-top, .leaflet-bottom {
+  z-index: 10 !important;
+}
