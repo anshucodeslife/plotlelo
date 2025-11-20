@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { User, Menu, Plus, ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
-import logo from "../assets/plotlelo-logo.jpg";
+// import logo from "../assets/plotlelo-logo.jpg";
 import HamburgerMenu from "./layout/HamburgerMenu";
 import UserSidebar from "./layout/UserSidebar";
 import PostPropertyModal from "./modals/PostPropertyModal";
@@ -22,7 +22,8 @@ const Navbar = () => {
             <Link to="/" className="flex items-center gap-3 cursor-pointer">
               <div className="w-9 h-9 rounded-lg overflow-hidden shadow-md">
                 <img
-                  src={logo}
+                  // src={logo}
+                  src="/plotlelo-logo.jpg"
                   alt="Plotlelo Logo"
                   className="w-full h-full object-cover"
                 />
