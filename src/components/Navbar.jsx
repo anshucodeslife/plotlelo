@@ -20,14 +20,14 @@ const Navbar = () => {
           {/* LEFT SIDE - LOGO & TITLE */}
           <div className="flex items-center gap-6">
             <Link to="/" className="flex items-center gap-3 cursor-pointer">
-              <div className="w-9 h-9 rounded-lg overflow-hidden shadow-md">
+              {/* <div className="w-9 h-9 rounded-lg overflow-hidden shadow-md">
                 <img
                   // src={logo}
                   src="/plotlelo-logo.jpg"
                   alt="Plotlelo Logo"
                   className="w-full h-full object-cover"
                 />
-              </div>
+              </div> */}
               <div className="flex items-center gap-2">
                 <span className="text-2xl font-bold bg-gradient-to-r from-emerald-500 to-emerald-700 bg-clip-text text-transparent">
                   plotlelo
