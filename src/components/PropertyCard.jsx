@@ -1,9 +1,32 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { ShieldCheck, Heart, Phone, Share2, MapPin } from 'lucide-react';
 
 const PropertyCard = ({ data }) => {
+  const navigate = useNavigate();
+
+  const handleCardClick = () => {
+    navigate(`/property/${data.id}`);
+  };
+
+  const handleContactClick = (e) => {
+    e.stopPropagation();
+    window.location.href = `tel:+917506980918`;
+  };
+
+  const handleShareClick = (e) => {
+    e.stopPropagation();
+  };
+
+  const handleLikeClick = (e) => {
+    e.stopPropagation();
+  };
+
   return (
-    <div className="group bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl hover:shadow-emerald-900/5 transition-all duration-300 cursor-pointer flex flex-col sm:flex-row h-full sm:h-48 relative">
+    <div 
+      onClick={handleCardClick}
+      className="group bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl hover:shadow-emerald-900/5 transition-all duration-300 cursor-pointer flex flex-col sm:flex-row h-full sm:h-48 relative"
+    >
       
       {/* Image Section */}
       <div className="sm:w-48 md:w-56 lg:w-64 h-48 sm:h-auto relative shrink-0">
@@ -24,7 +47,10 @@ const PropertyCard = ({ data }) => {
             </span>
           )}
         </div>
-        <button className="absolute top-2 right-2 p-1.5 bg-black/30 backdrop-blur-sm hover:bg-black/50 rounded-full text-white transition">
+        <button 
+          onClick={handleLikeClick}
+          className="absolute top-2 right-2 p-1.5 bg-black/30 backdrop-blur-sm hover:bg-black/50 rounded-full text-white transition"
+        >
           <Heart className="w-4 h-4" />
         </button>
       </div>
@@ -69,10 +95,16 @@ const PropertyCard = ({ data }) => {
           </div>
 
           <div className="flex gap-2">
-            <button className="p-2 text-slate-400 hover:text-emerald-600 hover:bg-emerald-50 rounded-lg transition">
+            <button 
+              onClick={handleShareClick}
+              className="p-2 text-slate-400 hover:text-emerald-600 hover:bg-emerald-50 rounded-lg transition"
+            >
               <Share2 className="w-4 h-4" />
             </button>
-            <button className="bg-slate-900 hover:bg-slate-800 text-white px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold flex items-center gap-2 transition">
+            <button 
+              onClick={handleContactClick}
+              className="bg-slate-900 hover:bg-slate-800 text-white px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold flex items-center gap-2 transition"
+            >
               <Phone className="w-3 h-3" /> Contact
             </button>
           </div>

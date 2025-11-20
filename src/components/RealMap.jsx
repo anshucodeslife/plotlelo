@@ -143,11 +143,11 @@ const createCustomIcon = (price, isPremium) => {
   });
 };
 
-const RealMap = ({ properties }) => {
+const RealMap = ({ properties, onMarkerClick }) => {
   const center =
     properties.length > 0
       ? [properties[0].location.lat, properties[0].location.lng]
-      : [17.385, 78.4867];
+      : [19.0760, 72.8777]; // Mumbai coordinates
 
   return (
     <MapContainer
@@ -196,25 +196,11 @@ const RealMap = ({ properties }) => {
             fillOpacity: 0.8,
           }}
           radius={8} // Size of the dot
+          eventHandlers={{
+            click: () => onMarkerClick && onMarkerClick(prop),
+          }}
         >
-          <Popup>...</Popup>
         </CircleMarker>
-        // <Marker
-        //   key={prop.id}
-        //   position={[prop.location.lat, prop.location.lng]}
-        //   icon={createCustomIcon(prop.price.displayTotal, prop.premium)}
-        // >
-        //   <Popup className="custom-popup">
-        //     <div className="w-48">
-        //       <img src={prop.images[0]} alt="land" className="w-full h-24 object-cover rounded-t-lg" />
-        //       <div className="p-2">
-        //         <h3 className="font-bold text-slate-800 text-sm">{prop.title}</h3>
-        //         <p className="text-emerald-700 font-bold text-sm mt-1">{prop.price.displayTotal}</p>
-        //         <button className="mt-2 w-full bg-slate-900 text-white text-xs py-1 rounded">View Details</button>
-        //       </div>
-        //     </div>
-        //   </Popup>
-        // </Marker>
       ))}
     </MapContainer>
   );
