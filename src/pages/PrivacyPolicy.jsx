@@ -56,7 +56,7 @@ const PrivacyPolicy = () => {
             <section className="mb-8">
               <h2 className="text-2xl font-bold text-slate-900 mb-4">4. Data Security</h2>
               <p className="text-slate-600 leading-relaxed">
-                We implement appropriate technical and organizational measures to protect your personal information 
+                We implement appropriate technical and organizational measures to protect your personal information
                 against unauthorized access, alteration, disclosure, or destruction.
               </p>
             </section>
@@ -81,7 +81,7 @@ const PrivacyPolicy = () => {
               </p>
               <p className="text-emerald-600 font-semibold mt-4">
                 Email: privacy@plotlelo.com<br />
-                Phone: +91 75069 80918
+                Phone: +91 77383 77791
               </p>
             </section>
           </div>

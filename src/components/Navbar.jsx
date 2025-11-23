@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { User, Menu, Plus, ChevronDown } from "lucide-react";
+import { User, Menu, Plus, ChevronDown, MessageCircle } from "lucide-react";
 import { Link } from "react-router-dom";
-// import logo from "../assets/plotlelo-logo.jpg";
+import logo from "../assets/plotlelo-logo.jpg";
 import HamburgerMenu from "./layout/HamburgerMenu";
 import UserSidebar from "./layout/UserSidebar";
 import PostPropertyModal from "./modals/PostPropertyModal";
@@ -20,21 +20,22 @@ const Navbar = () => {
           {/* LEFT SIDE - LOGO & TITLE */}
           <div className="flex items-center gap-6">
             <Link to="/" className="flex items-center gap-3 cursor-pointer">
-              {/* <div className="w-9 h-9 rounded-lg overflow-hidden shadow-md">
+              <div className="w-9 h-9 rounded-lg overflow-hidden shadow-md">
                 <img
-                  // src={logo}
-                  src="/plotlelo-logo.jpg"
+                  src={logo}
+                  // src="/plotlelo-logo.jpg"
                   alt="Plotlelo Logo"
                   className="w-full h-full object-cover"
                 />
-              </div> */}
+              </div>
               <div className="flex items-center gap-2">
                 <span className="text-2xl font-bold bg-gradient-to-r from-emerald-500 to-emerald-700 bg-clip-text text-transparent">
-                  plotlelo
+                  plotlelo.com
                 </span>
                 <span className="text-slate-400 font-light hidden sm:inline">|</span>
                 <span className="text-slate-700 font-medium text-sm hidden sm:inline">
-                  Buy Verified Lands
+                  {/* Buy Verified Lands */}
+                  Invest In Yourself
                 </span>
               </div>
             </Link>
@@ -75,12 +76,12 @@ const Navbar = () => {
 
           {/* RIGHT BUTTONS */}
           <div className="flex items-center gap-3">
-            {/* POST PROPERTY */}
+            {/* POST PROPERTY - HIGHLIGHTED WITH ANIMATION */}
             <button
               onClick={() => setShowPostModal(true)}
-              className="hidden sm:flex items-center gap-2 text-slate-700 font-semibold text-sm hover:text-emerald-600 hover:bg-emerald-50 px-4 py-2 rounded-lg transition border border-slate-200"
+              className="hidden sm:flex items-center gap-2 bg-emerald-600 text-white font-semibold text-sm hover:bg-emerald-700 px-4 py-2.5 rounded-lg transition shadow-md hover:shadow-lg animate-pulse hover:animate-none"
             >
-              <Plus className="w-4 h-4" />
+              <MessageCircle className="w-4 h-4" />
               Post Property
             </button>
 
@@ -107,7 +108,7 @@ const Navbar = () => {
             )}
 
             {/* MOBILE MENU */}
-            <button 
+            <button
               onClick={() => setIsMenuOpen(true)}
               className="md:hidden p-2 text-slate-600 hover:bg-slate-100 rounded-lg"
             >
@@ -119,10 +120,10 @@ const Navbar = () => {
 
       {/* Hamburger Menu */}
       <HamburgerMenu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
-      
+
       {/* User Sidebar */}
       <UserSidebar isOpen={showUserSidebar} onClose={() => setShowUserSidebar(false)} />
-      
+
       {/* Post Property Modal */}
       <PostPropertyModal isOpen={showPostModal} onClose={() => setShowPostModal(false)} />
     </>

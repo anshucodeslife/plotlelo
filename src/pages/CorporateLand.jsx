@@ -16,7 +16,7 @@ const CorporateLand = () => {
               Corporate Land Acquisitions
             </h1>
             <p className="text-xl text-slate-600 leading-relaxed mb-8">
-              Professional land acquisition services for corporations and enterprises. 
+              Professional land acquisition services for corporations and enterprises.
               We help you find, verify, and acquire large land parcels for your business needs.
             </p>
             <div className="bg-amber-50 border-l-4 border-amber-600 p-6 rounded-r-lg">
@@ -33,13 +33,13 @@ const CorporateLand = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
             Our Corporate Services
           </h2>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl border-2 border-slate-200 hover:border-emerald-200 transition">
               <Building2 className="w-12 h-12 text-emerald-600 mb-4" />
               <h3 className="text-2xl font-bold text-slate-900 mb-3">Land Sourcing</h3>
               <p className="text-slate-600 leading-relaxed">
-                We identify and source large land parcels matching your specific requirements 
+                We identify and source large land parcels matching your specific requirements
                 across India.
               </p>
             </div>
@@ -48,7 +48,7 @@ const CorporateLand = () => {
               <Target className="w-12 h-12 text-emerald-600 mb-4" />
               <h3 className="text-2xl font-bold text-slate-900 mb-3">Due Diligence</h3>
               <p className="text-slate-600 leading-relaxed">
-                Comprehensive legal and technical due diligence ensuring clear title and 
+                Comprehensive legal and technical due diligence ensuring clear title and
                 compliance.
               </p>
             </div>
@@ -57,7 +57,7 @@ const CorporateLand = () => {
               <Award className="w-12 h-12 text-emerald-600 mb-4" />
               <h3 className="text-2xl font-bold text-slate-900 mb-3">End-to-End Support</h3>
               <p className="text-slate-600 leading-relaxed">
-                Complete support from identification to registration, including negotiations 
+                Complete support from identification to registration, including negotiations
                 and documentation.
               </p>
             </div>
@@ -71,7 +71,7 @@ const CorporateLand = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
             Our Process
           </h2>
-          
+
           <div className="space-y-6">
             {[
               {
@@ -120,7 +120,7 @@ const CorporateLand = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
             Industries We Serve
           </h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               "Real Estate Developers",
@@ -150,7 +150,7 @@ const CorporateLand = () => {
             Let's discuss your corporate land acquisition requirements.
           </p>
           <a
-            href="https://wa.me/+917506980918/?text=I'm interested in corporate land acquisition services"
+            href="https://wa.me/+917738377791/?text=I'm interested in corporate land acquisition services"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-white text-emerald-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-emerald-50 transition shadow-lg"

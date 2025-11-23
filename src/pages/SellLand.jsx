@@ -15,7 +15,7 @@ const SellLand = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     const message = `
 🏞️ *New Property Listing Request*
 
@@ -35,9 +35,9 @@ ${formData.description}
 Sent from plotlelo.com
     `.trim();
 
-    const whatsappUrl = `https://wa.me/+917506980918/?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/+917738377791/?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
-    
+
     // Reset form
     setFormData({
       name: '',
@@ -56,7 +56,7 @@ Sent from plotlelo.com
       {/* Hero Section with Background Image */}
       <div className="relative bg-emerald-700 text-white py-16 md:py-24 overflow-hidden">
         {/* Background Image */}
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage: 'url(https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2000&auto=format&fit=crop)',
@@ -186,7 +186,7 @@ Sent from plotlelo.com
                   <input
                     type="text"
                     value={formData.name}
-                    onChange={(e) => setFormData({...formData, name: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition"
                     required
                     placeholder="Enter your full name"
@@ -201,7 +201,7 @@ Sent from plotlelo.com
                   <input
                     type="tel"
                     value={formData.phone}
-                    onChange={(e) => setFormData({...formData, phone: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition"
                     required
                     placeholder="10-digit mobile number"
@@ -220,7 +220,7 @@ Sent from plotlelo.com
                   <input
                     type="text"
                     value={formData.location}
-                    onChange={(e) => setFormData({...formData, location: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, location: e.target.value })}
                     className="w-full pl-12 pr-4 py-3 border-2 border-slate-200 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition"
                     required
                     placeholder="Village, Mandal, District, State"
@@ -238,7 +238,7 @@ Sent from plotlelo.com
                     type="number"
                     step="0.01"
                     value={formData.acres}
-                    onChange={(e) => setFormData({...formData, acres: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, acres: e.target.value })}
                     className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition"
                     required
                     placeholder="e.g., 5.5"
@@ -253,7 +253,7 @@ Sent from plotlelo.com
                   <input
                     type="number"
                     value={formData.price}
-                    onChange={(e) => setFormData({...formData, price: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, price: e.target.value })}
                     className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition"
                     required
                     placeholder="Total price in rupees"
@@ -268,7 +268,7 @@ Sent from plotlelo.com
                 </label>
                 <textarea
                   value={formData.description}
-                  onChange={(e) => setFormData({...formData, description: e.target.value})}
+                  onChange={(e) => setFormData({ ...formData, description: e.target.value })}
                   rows="4"
                   className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none resize-none transition"
                   placeholder="Any additional information about the property (water source, road access, crops, etc.)"
@@ -382,7 +382,7 @@ Sent from plotlelo.com
             Get started today and connect with verified buyers
           </p>
           <a
-            href="https://wa.me/+917506980918/?text=I want to sell my land"
+            href="https://wa.me/+917738377791/?text=I want to sell my land"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-white text-emerald-600 px-8 py-4 rounded-xl font-bold text-lg hover:bg-emerald-50 transition shadow-xl"

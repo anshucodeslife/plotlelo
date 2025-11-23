@@ -16,7 +16,7 @@ const TermsConditions = () => {
             <section className="mb-8">
               <h2 className="text-2xl font-bold text-slate-900 mb-4">1. Acceptance of Terms</h2>
               <p className="text-slate-600 leading-relaxed">
-                By accessing and using plotlelo's services, you accept and agree to be bound by the terms and 
+                By accessing and using plotlelo's services, you accept and agree to be bound by the terms and
                 provisions of this agreement. If you do not agree to these terms, please do not use our services.
               </p>
             </section>
@@ -50,8 +50,8 @@ const TermsConditions = () => {
             <section className="mb-8">
               <h2 className="text-2xl font-bold text-slate-900 mb-4">4. Verification Process</h2>
               <p className="text-slate-600 leading-relaxed">
-                plotlelo conducts preliminary verification of property listings. However, we do not guarantee the 
-                accuracy or completeness of any information. Buyers are advised to conduct their own due diligence 
+                plotlelo conducts preliminary verification of property listings. However, we do not guarantee the
+                accuracy or completeness of any information. Buyers are advised to conduct their own due diligence
                 before making any purchase decisions.
               </p>
             </section>
@@ -59,7 +59,7 @@ const TermsConditions = () => {
             <section className="mb-8">
               <h2 className="text-2xl font-bold text-slate-900 mb-4">5. Fees and Payments</h2>
               <p className="text-slate-600 leading-relaxed">
-                Listing properties on plotlelo is free. Premium services are available at additional cost. 
+                Listing properties on plotlelo is free. Premium services are available at additional cost.
                 All fees are non-refundable unless otherwise stated.
               </p>
             </section>
@@ -67,7 +67,7 @@ const TermsConditions = () => {
             <section className="mb-8">
               <h2 className="text-2xl font-bold text-slate-900 mb-4">6. Limitation of Liability</h2>
               <p className="text-slate-600 leading-relaxed">
-                plotlelo shall not be liable for any indirect, incidental, special, consequential, or punitive damages 
+                plotlelo shall not be liable for any indirect, incidental, special, consequential, or punitive damages
                 resulting from your use of or inability to use the services.
               </p>
             </section>
@@ -75,7 +75,7 @@ const TermsConditions = () => {
             <section className="mb-8">
               <h2 className="text-2xl font-bold text-slate-900 mb-4">7. Termination</h2>
               <p className="text-slate-600 leading-relaxed">
-                We may terminate or suspend your account and access to the services immediately, without prior notice, 
+                We may terminate or suspend your account and access to the services immediately, without prior notice,
                 for any breach of these Terms.
               </p>
             </section>
@@ -83,7 +83,7 @@ const TermsConditions = () => {
             <section className="mb-8">
               <h2 className="text-2xl font-bold text-slate-900 mb-4">8. Changes to Terms</h2>
               <p className="text-slate-600 leading-relaxed">
-                We reserve the right to modify these terms at any time. We will notify users of any material changes 
+                We reserve the right to modify these terms at any time. We will notify users of any material changes
                 via email or through the platform.
               </p>
             </section>
@@ -95,7 +95,7 @@ const TermsConditions = () => {
               </p>
               <p className="text-emerald-600 font-semibold mt-4">
                 Email: legal@plotlelo.com<br />
-                Phone: +91 75069 80918
+                Phone: +91 77383 77791
               </p>
             </section>
           </div>

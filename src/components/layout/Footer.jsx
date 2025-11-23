@@ -8,7 +8,7 @@ const Footer = () => {
       {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          
+
           {/* Services Column */}
           <div>
             <h3 className="text-white font-bold text-lg mb-4">Services</h3>
@@ -64,8 +64,8 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-emerald-400" />
-                <a href="tel:+917506980918" className="hover:text-emerald-400 transition">
-                  +91 7506980918
+                <a href="tel:+917738377791" className="hover:text-emerald-400 transition">
+                  +91 7738377791
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -78,27 +78,27 @@ const Footer = () => {
 
             {/* Social Media */}
             <div className="flex items-center gap-4 mt-6">
-              <a 
-                href="https://instagram.com" 
-                target="_blank" 
+              <a
+                href="https://instagram.com"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-emerald-400 transition"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a 
-                href="https://youtube.com" 
-                target="_blank" 
+              <a
+                href="https://youtube.com"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-emerald-400 transition"
                 aria-label="YouTube"
               >
                 <Youtube className="w-5 h-5" />
               </a>
-              <a 
-                href="https://linkedin.com" 
-                target="_blank" 
+              <a
+                href="https://linkedin.com"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-emerald-400 transition"
                 aria-label="LinkedIn"

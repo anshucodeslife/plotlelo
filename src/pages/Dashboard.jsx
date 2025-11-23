@@ -62,21 +62,19 @@ const Dashboard = () => {
           <div className="flex gap-8">
             <button
               onClick={() => setActiveTab('uploaded')}
-              className={`py-4 px-2 font-semibold border-b-2 transition ${
-                activeTab === 'uploaded'
+              className={`py-4 px-2 font-semibold border-b-2 transition ${activeTab === 'uploaded'
                   ? 'border-emerald-600 text-emerald-600'
                   : 'border-transparent text-slate-600 hover:text-slate-900'
-              }`}
+                }`}
             >
               Uploaded ({uploadedProperties.length})
             </button>
             <button
               onClick={() => setActiveTab('shortlisted')}
-              className={`py-4 px-2 font-semibold border-b-2 transition ${
-                activeTab === 'shortlisted'
+              className={`py-4 px-2 font-semibold border-b-2 transition ${activeTab === 'shortlisted'
                   ? 'border-emerald-600 text-emerald-600'
                   : 'border-transparent text-slate-600 hover:text-slate-900'
-              }`}
+                }`}
             >
               Shortlisted ({shortlistedProperties.length})
             </button>
@@ -87,13 +85,13 @@ const Dashboard = () => {
       {/* Content */}
       <div className="flex-1 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          
+
           {activeTab === 'uploaded' ? (
             <div>
               {/* Add Land Button */}
               <div className="mb-6">
                 <a
-                  href="https://wa.me/+917506980918/?text=I want to list my land"
+                  href="https://wa.me/+917738377791/?text=I want to list my land"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-emerald-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition shadow-md"
@@ -107,21 +105,19 @@ const Dashboard = () => {
               <div className="flex gap-4 mb-6">
                 <button
                   onClick={() => setPropertyType('lands')}
-                  className={`px-6 py-2 rounded-full font-semibold transition ${
-                    propertyType === 'lands'
+                  className={`px-6 py-2 rounded-full font-semibold transition ${propertyType === 'lands'
                       ? 'bg-emerald-600 text-white'
                       : 'bg-white text-slate-600 border border-slate-200 hover:border-emerald-200'
-                  }`}
+                    }`}
                 >
                   Lands
                 </button>
                 <button
                   onClick={() => setPropertyType('plots')}
-                  className={`px-6 py-2 rounded-full font-semibold transition ${
-                    propertyType === 'plots'
+                  className={`px-6 py-2 rounded-full font-semibold transition ${propertyType === 'plots'
                       ? 'bg-emerald-600 text-white'
                       : 'bg-white text-slate-600 border border-slate-200 hover:border-emerald-200'
-                  }`}
+                    }`}
                 >
                   Plots
                 </button>
@@ -188,21 +184,19 @@ const Dashboard = () => {
               <div className="flex gap-4 mb-6">
                 <button
                   onClick={() => setPropertyType('lands')}
-                  className={`px-6 py-2 rounded-full font-semibold transition ${
-                    propertyType === 'lands'
+                  className={`px-6 py-2 rounded-full font-semibold transition ${propertyType === 'lands'
                       ? 'bg-emerald-600 text-white'
                       : 'bg-white text-slate-600 border border-slate-200 hover:border-emerald-200'
-                  }`}
+                    }`}
                 >
                   Lands
                 </button>
                 <button
                   onClick={() => setPropertyType('plots')}
-                  className={`px-6 py-2 rounded-full font-semibold transition ${
-                    propertyType === 'plots'
+                  className={`px-6 py-2 rounded-full font-semibold transition ${propertyType === 'plots'
                       ? 'bg-emerald-600 text-white'
                       : 'bg-white text-slate-600 border border-slate-200 hover:border-emerald-200'
-                  }`}
+                    }`}
                 >
                   Plots
                 </button>
@@ -239,7 +233,7 @@ const Dashboard = () => {
                           <p className="text-xs text-slate-500">{property.size.acres} Acres</p>
                         </div>
                         <a
-                          href={`tel:+917506980918`}
+                          href={`tel:+917738377791`}
                           className="flex items-center gap-2 bg-emerald-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-emerald-700 transition text-sm"
                         >
                           <Phone className="w-4 h-4" />

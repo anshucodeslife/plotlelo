@@ -1,394 +1,2625 @@
 export const PROPERTIES = [
   {
-    id: 1,
-    title: "5 Acres River View Farm",
-    slug: "5-acres-river-view-karjat",
-    location: {
-      village: "Kadav",
-      district: "Raigad",
-      state: "Maharashtra",
-      lat: 18.9102,
-      lng: 73.3283
+    "id": 1,
+    "title": "36,900 /sq yard in Badnera - Amravati (dist)",
+    "slug": "36-900-sq-yard-in-badnera-amravati-dist-amravati",
+    "location": {
+      "village": "Badnera",
+      "district": "Amravati",
+      "state": "Maharashtra",
+      "lat": 20.9767,
+      "lng": 77.7426
     },
-    price: {
-      perAcre: 4500000,
-      total: 22500000,
-      displayPrice: "₹45L / acre",
-      displayTotal: "₹2.25 Cr"
+    "price": {
+      "perAcre": 178596000,
+      "total": 0,
+      "displayPrice": "36,900 /sq yard",
+      "displayTotal": "36,900 /sq yard"
     },
-    size: {
-      acres: 5,
-      guntas: 0
+    "size": {
+      "acres": 0,
+      "guntas": 0
     },
-    verified: true,
-    premium: true,
-    tags: ["River Touch", "Farmhouse Ready", "Tar Road"],
-    images: [
-      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1000&auto=format&fit=crop"
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
     ],
-    postedTime: "2 days ago"
-  },
-  {
-    id: 2,
-    title: "Organic Mango Orchard",
-    slug: "organic-mango-orchard-ratnagiri",
-    location: {
-      village: "Guhagar",
-      district: "Ratnagiri",
-      state: "Maharashtra",
-      lat: 17.4742,
-      lng: 73.1935
-    },
-    price: {
-      perAcre: 1200000,
-      total: 3600000,
-      displayPrice: "₹12L / acre",
-      displayTotal: "₹36L"
-    },
-    size: {
-      acres: 3,
-      guntas: 0
-    },
-    verified: true,
-    premium: false,
-    tags: ["Alphonso Mangoes", "Konkan Belt"],
-    images: [
-      "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?q=80&w=1000&auto=format&fit=crop"
+    "images": [
+      "/downloaded_images/property_1_0.jpg"
     ],
-    postedTime: "1 week ago"
+    "postedTime": "Today"
   },
   {
-    id: 3,
-    title: "Premium Plot near Mumbai-Pune Exp",
-    slug: "premium-plot-lonavala",
-    location: {
-      village: "Kamshet",
-      district: "Pune",
-      state: "Maharashtra",
-      lat: 18.7481,
-      lng: 73.4072
+    "id": 2,
+    "title": "21,150 /sq yard in Revsa - Amravati (dist)",
+    "slug": "21-150-sq-yard-in-revsa-amravati-dist-amravati",
+    "location": {
+      "village": "Revsa",
+      "district": "Amravati",
+      "state": "Maharashtra",
+      "lat": 20.92,
+      "lng": 77.7513
     },
-    price: {
-      perAcre: 25000000,
-      total: 25000000,
-      displayPrice: "₹2.5 Cr / acre",
-      displayTotal: "₹2.5 Cr"
+    "price": {
+      "perAcre": 102366000,
+      "total": 0,
+      "displayPrice": "21,150 /sq yard",
+      "displayTotal": "21,150 /sq yard"
     },
-    size: {
-      acres: 1,
-      guntas: 0
+    "size": {
+      "acres": 0,
+      "guntas": 0
     },
-    verified: false,
-    premium: true,
-    tags: ["Hill View", "Gated Community", "Weekend Home"],
-    images: [
-      "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1000&auto=format&fit=crop"
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
     ],
-    postedTime: "5 hours ago"
-  },
-  {
-    id: 4,
-    title: "Agricultural Land in Wada",
-    slug: "agri-land-wada",
-    location: {
-      village: "Kudus",
-      district: "Palghar",
-      state: "Maharashtra",
-      lat: 19.6536,
-      lng: 73.1327
-    },
-    price: {
-      perAcre: 1800000,
-      total: 7200000,
-      displayPrice: "₹18L / acre",
-      displayTotal: "₹72L"
-    },
-    size: {
-      acres: 4,
-      guntas: 0
-    },
-    verified: true,
-    premium: false,
-    tags: ["Red Soil", "Rice Cultivation"],
-    images: [
-      "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?q=80&w=1000&auto=format&fit=crop"
+    "images": [
+      "/downloaded_images/property_2_0.JPG"
     ],
-    postedTime: "1 day ago"
+    "postedTime": "Today"
   },
   {
-    id: 5,
-    title: "10 Acres Coconut & Betel Nut",
-    slug: "coconut-betel-alibaug",
-    location: {
-      village: "Nagaon",
-      district: "Raigad",
-      state: "Maharashtra",
-      lat: 18.6414,
-      lng: 72.8722
+    "id": 3,
+    "title": "35 lakhs /acre in Bhankheda Kh. - Amravati (dist)",
+    "slug": "35-lakhs-acre-in-bhankheda-kh-amravati-dist-amravati",
+    "location": {
+      "village": "Bhankheda Kh.",
+      "district": "Amravati",
+      "state": "Maharashtra",
+      "lat": 20.9121,
+      "lng": 77.7735
     },
-    price: {
-      perAcre: 8000000,
-      total: 80000000,
-      displayPrice: "₹80L / acre",
-      displayTotal: "₹8 Cr"
+    "price": {
+      "perAcre": 3500000,
+      "total": 0,
+      "displayPrice": "35 lakhs /acre",
+      "displayTotal": "35 lakhs /acre"
     },
-    size: {
-      acres: 10,
-      guntas: 0
+    "size": {
+      "acres": 0,
+      "guntas": 0
     },
-    verified: true,
-    premium: true,
-    tags: ["Beach Proximity", "Tourism Potential", "Wadi"],
-    images: [
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=1000&auto=format&fit=crop"
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
     ],
-    postedTime: "3 days ago"
-  },
-  {
-    id: 6,
-    title: "3 Acres near Shahapur",
-    slug: "land-shahapur-thane",
-    location: {
-      village: "Asangaon",
-      district: "Thane",
-      state: "Maharashtra",
-      lat: 19.4516,
-      lng: 73.3283
-    },
-    price: {
-      perAcre: 3500000,
-      total: 10500000,
-      displayPrice: "₹35L / acre",
-      displayTotal: "₹1.05 Cr"
-    },
-    size: {
-      acres: 3,
-      guntas: 0
-    },
-    verified: true,
-    premium: false,
-    tags: ["Highway Touch", "Industrial Zone Nearby", "Flat Land"],
-    images: [
-      "https://images.unsplash.com/photo-1560493676-04071c5f467b?q=80&w=1000&auto=format&fit=crop"
+    "images": [
+      "/downloaded_images/property_3_0.JPG"
     ],
-    postedTime: "6 hours ago"
+    "postedTime": "Today"
   },
   {
-    id: 7,
-    title: "Farmhouse Plot 2 Acres",
-    slug: "farmhouse-plot-panvel",
-    location: {
-      village: "Chowk",
-      district: "Raigad",
-      state: "Maharashtra",
-      lat: 18.9894,
-      lng: 73.1175
+    "id": 4,
+    "title": "3.1 Cr /acre in Rahatgaon - Amravati (dist)",
+    "slug": "3-1-cr-acre-in-rahatgaon-amravati-dist-amravati",
+    "location": {
+      "village": "Rahatgaon",
+      "district": "Amravati",
+      "state": "Maharashtra",
+      "lat": 20.9034,
+      "lng": 77.7035
     },
-    price: {
-      perAcre: 15000000,
-      total: 30000000,
-      displayPrice: "₹1.5 Cr / acre",
-      displayTotal: "₹3 Cr"
+    "price": {
+      "perAcre": 31000000,
+      "total": 0,
+      "displayPrice": "3.1 Cr /acre",
+      "displayTotal": "3.1 Cr /acre"
     },
-    size: {
-      acres: 2,
-      guntas: 0
+    "size": {
+      "acres": 0,
+      "guntas": 0
     },
-    verified: true,
-    premium: true,
-    tags: ["Near Airport", "Gated Community", "Premium"],
-    images: [
-      "https://images.unsplash.com/photo-1464146072230-91cabc968266?q=80&w=1000&auto=format&fit=crop"
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
     ],
-    postedTime: "1 day ago"
-  },
-  {
-    id: 8,
-    title: "7 Acres Fertile Land",
-    slug: "fertile-land-nashik",
-    location: {
-      village: "Igatpuri",
-      district: "Nashik",
-      state: "Maharashtra",
-      lat: 19.6936,
-      lng: 73.5655
-    },
-    price: {
-      perAcre: 2500000,
-      total: 17500000,
-      displayPrice: "₹25L / acre",
-      displayTotal: "₹1.75 Cr"
-    },
-    size: {
-      acres: 7,
-      guntas: 0
-    },
-    verified: true,
-    premium: false,
-    tags: ["Dam Water", "Vineyard Potential", "Scenic"],
-    images: [
-      "https://images.unsplash.com/photo-1574943320219-553eb213f72d?q=80&w=1000&auto=format&fit=crop"
+    "images": [
+      "/downloaded_images/property_4_0.JPG"
     ],
-    postedTime: "4 days ago"
+    "postedTime": "Today"
   },
   {
-    id: 9,
-    title: "Budget Land 6 Acres",
-    slug: "budget-land-murbad",
-    location: {
-      village: "Murbad",
-      district: "Thane",
-      state: "Maharashtra",
-      lat: 19.2563,
-      lng: 73.3981
+    "id": 5,
+    "title": "14,049 /sq yard in Nimblak - Ahmadnagar (dist)",
+    "slug": "14-049-sq-yard-in-nimblak-ahmadnagar-dist-ahmednagar",
+    "location": {
+      "village": "Nimblak",
+      "district": "Ahmednagar",
+      "state": "Maharashtra",
+      "lat": 19.0592,
+      "lng": 74.7347
     },
-    price: {
-      perAcre: 1500000,
-      total: 9000000,
-      displayPrice: "₹15L / acre",
-      displayTotal: "₹90L"
+    "price": {
+      "perAcre": 67997160,
+      "total": 0,
+      "displayPrice": "14,049 /sq yard",
+      "displayTotal": "14,049 /sq yard"
     },
-    size: {
-      acres: 6,
-      guntas: 0
+    "size": {
+      "acres": 0,
+      "guntas": 0
     },
-    verified: false,
-    premium: false,
-    tags: ["Investment", "Future Growth"],
-    images: [
-      "https://images.unsplash.com/photo-1589923188900-85dae523342b?q=80&w=1000&auto=format&fit=crop"
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
     ],
-    postedTime: "2 weeks ago"
-  },
-  {
-    id: 10,
-    title: "Premium Villa Plot",
-    slug: "villa-plot-alibaug",
-    location: {
-      village: "Mandwa",
-      district: "Raigad",
-      state: "Maharashtra",
-      lat: 18.8000,
-      lng: 72.8333
-    },
-    price: {
-      perAcre: 50000000,
-      total: 50000000,
-      displayPrice: "₹5 Cr / acre",
-      displayTotal: "₹5 Cr"
-    },
-    size: {
-      acres: 1,
-      guntas: 0
-    },
-    verified: true,
-    premium: true,
-    tags: ["Sea View", "Jetty Proximity", "Celebrity Neighborhood"],
-    images: [
-      "https://images.unsplash.com/photo-1500076656116-558758c991c1?q=80&w=1000&auto=format&fit=crop"
+    "images": [
+      "/downloaded_images/property_5_0.png"
     ],
-    postedTime: "12 hours ago"
+    "postedTime": "Today"
   },
   {
-    id: 11,
-    title: "8 Acres Cashew Farm",
-    slug: "cashew-farm-sawantwadi",
-    location: {
-      village: "Amboli",
-      district: "Sindhudurg",
-      state: "Maharashtra",
-      lat: 15.9604,
-      lng: 73.9997
+    "id": 6,
+    "title": "18,000 /sq yard in WADIPEER - Kolhapur (dist)",
+    "slug": "18-000-sq-yard-in-wadipeer-kolhapur-dist-kolhapur",
+    "location": {
+      "village": "WADIPEER",
+      "district": "Kolhapur",
+      "state": "Maharashtra",
+      "lat": 16.7359,
+      "lng": 74.2889
     },
-    price: {
-      perAcre: 800000,
-      total: 6400000,
-      displayPrice: "₹8L / acre",
-      displayTotal: "₹64L"
+    "price": {
+      "perAcre": 87120000,
+      "total": 0,
+      "displayPrice": "18,000 /sq yard",
+      "displayTotal": "18,000 /sq yard"
     },
-    size: {
-      acres: 8,
-      guntas: 0
+    "size": {
+      "acres": 0,
+      "guntas": 0
     },
-    verified: true,
-    premium: false,
-    tags: ["Cashew Plantation", "Hill Station", "Rainfall"],
-    images: [
-      "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?q=80&w=1000&auto=format&fit=crop"
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
     ],
-    postedTime: "5 days ago"
-  },
-  {
-    id: 12,
-    title: "15 Acres Bulk Deal",
-    slug: "bulk-deal-dahanu",
-    location: {
-      village: "Dahanu",
-      district: "Palghar",
-      state: "Maharashtra",
-      lat: 19.9750,
-      lng: 72.7290
-    },
-    price: {
-      perAcre: 2000000,
-      total: 30000000,
-      displayPrice: "₹20L / acre",
-      displayTotal: "₹3 Cr"
-    },
-    size: {
-      acres: 15,
-      guntas: 0
-    },
-    verified: true,
-    premium: false,
-    tags: ["Chikoo Orchards", "Coastal Climate", "Investment"],
-    images: [
-      "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?q=80&w=1000&auto=format&fit=crop"
+    "images": [
+      "/downloaded_images/property_6_0.jpg"
     ],
-    postedTime: "1 week ago"
-  }
-];
-
-// Top Agents Data
-export const TOP_AGENTS = [
-  {
-    id: 1,
-    name: "Rajesh Patil",
-    listingsCount: 127,
-    phone: "+91 98765 43210",
-    verified: true,
-    rating: 4.8
+    "postedTime": "Today"
   },
   {
-    id: 2,
-    name: "Priya Deshmukh",
-    listingsCount: 89,
-    phone: "+91 98765 43211",
-    verified: true,
-    rating: 4.9
+    "id": 7,
+    "title": "2 Cr /acre in Bale - Solapur (dist)",
+    "slug": "2-cr-acre-in-bale-solapur-dist-solapur",
+    "location": {
+      "village": "Bale",
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "lat": 17.659,
+      "lng": 75.8678
+    },
+    "price": {
+      "perAcre": 20000000,
+      "total": 0,
+      "displayPrice": "2 Cr /acre",
+      "displayTotal": "2 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_7_0.jpg"
+    ],
+    "postedTime": "Today"
   },
   {
-    id: 3,
-    name: "Sanjay Kulkarni",
-    listingsCount: 156,
-    phone: "+91 98765 43212",
-    verified: true,
-    rating: 4.7
+    "id": 8,
+    "title": "3 Cr /acre in Shivajinagar - Solapur (dist)",
+    "slug": "3-cr-acre-in-shivajinagar-solapur-dist-solapur",
+    "location": {
+      "village": "Shivajinagar",
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "lat": 17.6398,
+      "lng": 75.9299
+    },
+    "price": {
+      "perAcre": 30000000,
+      "total": 0,
+      "displayPrice": "3 Cr /acre",
+      "displayTotal": "3 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_8_0.png"
+    ],
+    "postedTime": "Today"
   },
   {
-    id: 4,
-    name: "Anjali Sawant",
-    listingsCount: 94,
-    phone: "+91 98765 43213",
-    verified: true,
-    rating: 4.6
+    "id": 9,
+    "title": "49,500 /sq yard in Chikalthana - Aurangabad (dist)",
+    "slug": "49-500-sq-yard-in-chikalthana-aurangabad-dist-aurangabad",
+    "location": {
+      "village": "Chikalthana",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.8629,
+      "lng": 75.3488
+    },
+    "price": {
+      "perAcre": 239580000,
+      "total": 0,
+      "displayPrice": "49,500 /sq yard",
+      "displayTotal": "49,500 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_9_0.jpg"
+    ],
+    "postedTime": "Today"
   },
   {
-    id: 5,
-    name: "Amit Shinde",
-    listingsCount: 112,
-    phone: "+91 98765 43214",
-    verified: true,
-    rating: 4.8
+    "id": 10,
+    "title": "27,000 /sq yard in Zalta - Aurangabad (dist)",
+    "slug": "27-000-sq-yard-in-zalta-aurangabad-dist-aurangabad",
+    "location": {
+      "village": "Zalta",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.8774,
+      "lng": 75.3332
+    },
+    "price": {
+      "perAcre": 130680000,
+      "total": 0,
+      "displayPrice": "27,000 /sq yard",
+      "displayTotal": "27,000 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_10_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 11,
+    "title": "5.5 Cr /acre in Mitmita - Aurangabad (dist)",
+    "slug": "5-5-cr-acre-in-mitmita-aurangabad-dist-aurangabad",
+    "location": {
+      "village": "Mitmita",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.8751,
+      "lng": 75.3758
+    },
+    "price": {
+      "perAcre": 55000000,
+      "total": 0,
+      "displayPrice": "5.5 Cr /acre",
+      "displayTotal": "5.5 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_11_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 12,
+    "title": "4.33 Cr /acre in Kanchanwadi - Aurangabad (dist)",
+    "slug": "4-33-cr-acre-in-kanchanwadi-aurangabad-dist-aurangabad",
+    "location": {
+      "village": "Kanchanwadi",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.8823,
+      "lng": 75.308
+    },
+    "price": {
+      "perAcre": 43300000,
+      "total": 0,
+      "displayPrice": "4.33 Cr /acre",
+      "displayTotal": "4.33 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_12_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 13,
+    "title": "3 Cr /acre in Mitmita - Aurangabad (dist)",
+    "slug": "3-cr-acre-in-mitmita-aurangabad-dist-aurangabad",
+    "location": {
+      "village": "Mitmita",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.8998,
+      "lng": 75.2993
+    },
+    "price": {
+      "perAcre": 30000000,
+      "total": 0,
+      "displayPrice": "3 Cr /acre",
+      "displayTotal": "3 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_13_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 14,
+    "title": "2.25 Cr /acre in Sundarwadi - Aurangabad (dist)",
+    "slug": "2-25-cr-acre-in-sundarwadi-aurangabad-dist-aurangabad",
+    "location": {
+      "village": "Sundarwadi",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.8266,
+      "lng": 75.3234
+    },
+    "price": {
+      "perAcre": 22500000,
+      "total": 0,
+      "displayPrice": "2.25 Cr /acre",
+      "displayTotal": "2.25 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_14_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 15,
+    "title": "3,500 /sq yard in Pirwadi - Satara (dist)",
+    "slug": "3-500-sq-yard-in-pirwadi-satara-dist-satara",
+    "location": {
+      "village": "Pirwadi",
+      "district": "Satara",
+      "state": "Maharashtra",
+      "lat": 17.6802,
+      "lng": 74.0244
+    },
+    "price": {
+      "perAcre": 16940000,
+      "total": 0,
+      "displayPrice": "3,500 /sq yard",
+      "displayTotal": "3,500 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_15_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 16,
+    "title": "1,23,000 /sq yard in Magathane - Mumbai (Suburban) * (dist)",
+    "slug": "1-23-000-sq-yard-in-magathane-mumbai-suburban-dist-thane",
+    "location": {
+      "village": "Magathane",
+      "district": "Thane",
+      "state": "Maharashtra",
+      "lat": 19.1868,
+      "lng": 73.0131
+    },
+    "price": {
+      "perAcre": 595320000,
+      "total": 0,
+      "displayPrice": "1,23,000 /sq yard",
+      "displayTotal": "1,23,000 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_16_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 17,
+    "title": "2,19,600 /sq yard in Thane - Thane (dist)",
+    "slug": "2-19-600-sq-yard-in-thane-thane-dist-thane",
+    "location": {
+      "village": "Thane",
+      "district": "Thane",
+      "state": "Maharashtra",
+      "lat": 19.2663,
+      "lng": 72.9747
+    },
+    "price": {
+      "perAcre": 1062864000,
+      "total": 0,
+      "displayPrice": "2,19,600 /sq yard",
+      "displayTotal": "2,19,600 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_17_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 18,
+    "title": "2,76,000 /sq yard in Pahadi Goregaon - Mumbai (Suburban) * (dist)",
+    "slug": "2-76-000-sq-yard-in-pahadi-goregaon-mumbai-suburban-dist-thane",
+    "location": {
+      "village": "Pahadi Goregaon",
+      "district": "Thane",
+      "state": "Maharashtra",
+      "lat": 19.2134,
+      "lng": 72.9287
+    },
+    "price": {
+      "perAcre": 1335840000,
+      "total": 0,
+      "displayPrice": "2,76,000 /sq yard",
+      "displayTotal": "2,76,000 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_18_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 19,
+    "title": "21.43 Cr /acre in Penkarpada - Thane (dist)",
+    "slug": "21-43-cr-acre-in-penkarpada-thane-dist-thane",
+    "location": {
+      "village": "Penkarpada",
+      "district": "Thane",
+      "state": "Maharashtra",
+      "lat": 19.1776,
+      "lng": 72.9308
+    },
+    "price": {
+      "perAcre": 214300000,
+      "total": 0,
+      "displayPrice": "21.43 Cr /acre",
+      "displayTotal": "21.43 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_19_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 20,
+    "title": "13.18 Cr /acre in Ovale - Thane (dist)",
+    "slug": "13-18-cr-acre-in-ovale-thane-dist-thane",
+    "location": {
+      "village": "Ovale",
+      "district": "Thane",
+      "state": "Maharashtra",
+      "lat": 19.2365,
+      "lng": 73.0256
+    },
+    "price": {
+      "perAcre": 131800000,
+      "total": 0,
+      "displayPrice": "13.18 Cr /acre",
+      "displayTotal": "13.18 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_20_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 21,
+    "title": "6.88 Cr /acre in Penkarpada - Thane (dist)",
+    "slug": "6-88-cr-acre-in-penkarpada-thane-dist-thane",
+    "location": {
+      "village": "Penkarpada",
+      "district": "Thane",
+      "state": "Maharashtra",
+      "lat": 19.2324,
+      "lng": 73.0009
+    },
+    "price": {
+      "perAcre": 68800000,
+      "total": 0,
+      "displayPrice": "6.88 Cr /acre",
+      "displayTotal": "6.88 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_21_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 22,
+    "title": "7.2 Cr /acre in Mhatardi - Thane (dist)",
+    "slug": "7-2-cr-acre-in-mhatardi-thane-dist-thane",
+    "location": {
+      "village": "Mhatardi",
+      "district": "Thane",
+      "state": "Maharashtra",
+      "lat": 19.1783,
+      "lng": 72.9519
+    },
+    "price": {
+      "perAcre": 72000000,
+      "total": 0,
+      "displayPrice": "7.2 Cr /acre",
+      "displayTotal": "7.2 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_22_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 23,
+    "title": "19.56 Cr /acre in Kolshet - Thane (dist)",
+    "slug": "19-56-cr-acre-in-kolshet-thane-dist-thane",
+    "location": {
+      "village": "Kolshet",
+      "district": "Thane",
+      "state": "Maharashtra",
+      "lat": 19.1782,
+      "lng": 72.9458
+    },
+    "price": {
+      "perAcre": 195600000,
+      "total": 0,
+      "displayPrice": "19.56 Cr /acre",
+      "displayTotal": "19.56 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_23_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 24,
+    "title": "33.18 Cr /acre in Nahur - Mumbai (Suburban) * (dist)",
+    "slug": "33-18-cr-acre-in-nahur-mumbai-suburban-dist-thane",
+    "location": {
+      "village": "Nahur",
+      "district": "Thane",
+      "state": "Maharashtra",
+      "lat": 19.2256,
+      "lng": 73.0204
+    },
+    "price": {
+      "perAcre": 331800000,
+      "total": 0,
+      "displayPrice": "33.18 Cr /acre",
+      "displayTotal": "33.18 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_24_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 25,
+    "title": "55 Cr /acre in Kavesar - Thane (dist)",
+    "slug": "55-cr-acre-in-kavesar-thane-dist-thane",
+    "location": {
+      "village": "Kavesar",
+      "district": "Thane",
+      "state": "Maharashtra",
+      "lat": 19.213,
+      "lng": 73.0178
+    },
+    "price": {
+      "perAcre": 550000000,
+      "total": 0,
+      "displayPrice": "55 Cr /acre",
+      "displayTotal": "55 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_25_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 26,
+    "title": "85,500 /sq yard in Nari - Nagpur (dist)",
+    "slug": "85-500-sq-yard-in-nari-nagpur-dist-solapur",
+    "location": {
+      "village": "Nari",
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "lat": 17.6781,
+      "lng": 75.9275
+    },
+    "price": {
+      "perAcre": 413820000,
+      "total": 0,
+      "displayPrice": "85,500 /sq yard",
+      "displayTotal": "85,500 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_26_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 27,
+    "title": "49,500 /sq yard in Takli(zingabai) - Nagpur (dist)",
+    "slug": "49-500-sq-yard-in-takli-zingabai-nagpur-dist-solapur",
+    "location": {
+      "village": "Takli(zingabai)",
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "lat": 17.6335,
+      "lng": 75.8947
+    },
+    "price": {
+      "perAcre": 239580000,
+      "total": 0,
+      "displayPrice": "49,500 /sq yard",
+      "displayTotal": "49,500 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_27_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 28,
+    "title": "1,53,000 /sq yard in Somalwada - Nagpur (dist)",
+    "slug": "1-53-000-sq-yard-in-somalwada-nagpur-dist-solapur",
+    "location": {
+      "village": "Somalwada",
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "lat": 17.6717,
+      "lng": 75.9286
+    },
+    "price": {
+      "perAcre": 740520000,
+      "total": 0,
+      "displayPrice": "1,53,000 /sq yard",
+      "displayTotal": "1,53,000 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_28_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 29,
+    "title": "46,667 /sq yard in Wanjara - Nagpur (dist)",
+    "slug": "46-667-sq-yard-in-wanjara-nagpur-dist-solapur",
+    "location": {
+      "village": "Wanjara",
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "lat": 17.6257,
+      "lng": 75.8578
+    },
+    "price": {
+      "perAcre": 225868280,
+      "total": 0,
+      "displayPrice": "46,667 /sq yard",
+      "displayTotal": "46,667 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_29_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 30,
+    "title": "18,900 /sq yard in Dabha - Nagpur (dist)",
+    "slug": "18-900-sq-yard-in-dabha-nagpur-dist-solapur",
+    "location": {
+      "village": "Dabha",
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "lat": 17.6761,
+      "lng": 75.9552
+    },
+    "price": {
+      "perAcre": 91476000,
+      "total": 0,
+      "displayPrice": "18,900 /sq yard",
+      "displayTotal": "18,900 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_30_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 31,
+    "title": "21,150 /sq yard in Dabha - Nagpur (dist)",
+    "slug": "21-150-sq-yard-in-dabha-nagpur-dist-solapur",
+    "location": {
+      "village": "Dabha",
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "lat": 17.6248,
+      "lng": 75.9283
+    },
+    "price": {
+      "perAcre": 102366000,
+      "total": 0,
+      "displayPrice": "21,150 /sq yard",
+      "displayTotal": "21,150 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_31_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 32,
+    "title": "2.5 Cr /acre in Chicholi  P.C. No. 4 - Nagpur (dist)",
+    "slug": "2-5-cr-acre-in-chicholi-p-c-no-4-nagpur-dist-solapur",
+    "location": {
+      "village": "Chicholi  P.C. No. 4",
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "lat": 17.6701,
+      "lng": 75.9114
+    },
+    "price": {
+      "perAcre": 25000000,
+      "total": 0,
+      "displayPrice": "2.5 Cr /acre",
+      "displayTotal": "2.5 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_32_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 33,
+    "title": "3.5 Cr /acre in Lava - Nagpur (dist)",
+    "slug": "3-5-cr-acre-in-lava-nagpur-dist-solapur",
+    "location": {
+      "village": "Lava",
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "lat": 17.6669,
+      "lng": 75.8587
+    },
+    "price": {
+      "perAcre": 35000000,
+      "total": 0,
+      "displayPrice": "3.5 Cr /acre",
+      "displayTotal": "3.5 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_33_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 34,
+    "title": "3.5 Cr /acre in Pawangaon - Nagpur (dist)",
+    "slug": "3-5-cr-acre-in-pawangaon-nagpur-dist-solapur",
+    "location": {
+      "village": "Pawangaon",
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "lat": 17.6514,
+      "lng": 75.9374
+    },
+    "price": {
+      "perAcre": 35000000,
+      "total": 0,
+      "displayPrice": "3.5 Cr /acre",
+      "displayTotal": "3.5 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_34_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 35,
+    "title": "1.25 Cr /acre in Yerla - Nagpur (dist)",
+    "slug": "1-25-cr-acre-in-yerla-nagpur-dist-solapur",
+    "location": {
+      "village": "Yerla",
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "lat": 17.6582,
+      "lng": 75.8635
+    },
+    "price": {
+      "perAcre": 12500000,
+      "total": 0,
+      "displayPrice": "1.25 Cr /acre",
+      "displayTotal": "1.25 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_35_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 36,
+    "title": "22.75 lakhs for full property in Ajani - Nagpur (dist)",
+    "slug": "22-75-lakhs-for-full-property-in-ajani-nagpur-dist-solapur",
+    "location": {
+      "village": "Ajani",
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "lat": 17.6785,
+      "lng": 75.9055
+    },
+    "price": {
+      "perAcre": 0,
+      "total": 2275000,
+      "displayPrice": "22.75 lakhs for full property",
+      "displayTotal": "22.75 lakhs for full property"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_36_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 37,
+    "title": "2 Cr /acre in Asoli - Nagpur (dist)",
+    "slug": "2-cr-acre-in-asoli-nagpur-dist-solapur",
+    "location": {
+      "village": "Asoli",
+      "district": "Solapur",
+      "state": "Maharashtra",
+      "lat": 17.6881,
+      "lng": 75.9481
+    },
+    "price": {
+      "perAcre": 20000000,
+      "total": 0,
+      "displayPrice": "2 Cr /acre",
+      "displayTotal": "2 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_37_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 38,
+    "title": "85,500 /sq yard in Nari - Nagpur (dist)",
+    "slug": "85-500-sq-yard-in-nari-nagpur-dist-aurangabad",
+    "location": {
+      "village": "Nari",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.8409,
+      "lng": 75.3257
+    },
+    "price": {
+      "perAcre": 413820000,
+      "total": 0,
+      "displayPrice": "85,500 /sq yard",
+      "displayTotal": "85,500 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_38_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 39,
+    "title": "49,500 /sq yard in Takli(zingabai) - Nagpur (dist)",
+    "slug": "49-500-sq-yard-in-takli-zingabai-nagpur-dist-aurangabad",
+    "location": {
+      "village": "Takli(zingabai)",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.9087,
+      "lng": 75.3925
+    },
+    "price": {
+      "perAcre": 239580000,
+      "total": 0,
+      "displayPrice": "49,500 /sq yard",
+      "displayTotal": "49,500 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_39_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 40,
+    "title": "1,53,000 /sq yard in Somalwada - Nagpur (dist)",
+    "slug": "1-53-000-sq-yard-in-somalwada-nagpur-dist-aurangabad",
+    "location": {
+      "village": "Somalwada",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.8469,
+      "lng": 75.3299
+    },
+    "price": {
+      "perAcre": 740520000,
+      "total": 0,
+      "displayPrice": "1,53,000 /sq yard",
+      "displayTotal": "1,53,000 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_40_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 41,
+    "title": "46,667 /sq yard in Wanjara - Nagpur (dist)",
+    "slug": "46-667-sq-yard-in-wanjara-nagpur-dist-aurangabad",
+    "location": {
+      "village": "Wanjara",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.9137,
+      "lng": 75.3781
+    },
+    "price": {
+      "perAcre": 225868280,
+      "total": 0,
+      "displayPrice": "46,667 /sq yard",
+      "displayTotal": "46,667 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_41_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 42,
+    "title": "18,900 /sq yard in Dabha - Nagpur (dist)",
+    "slug": "18-900-sq-yard-in-dabha-nagpur-dist-aurangabad",
+    "location": {
+      "village": "Dabha",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.9076,
+      "lng": 75.354
+    },
+    "price": {
+      "perAcre": 91476000,
+      "total": 0,
+      "displayPrice": "18,900 /sq yard",
+      "displayTotal": "18,900 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_42_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 43,
+    "title": "21,150 /sq yard in Dabha - Nagpur (dist)",
+    "slug": "21-150-sq-yard-in-dabha-nagpur-dist-aurangabad",
+    "location": {
+      "village": "Dabha",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.8813,
+      "lng": 75.3075
+    },
+    "price": {
+      "perAcre": 102366000,
+      "total": 0,
+      "displayPrice": "21,150 /sq yard",
+      "displayTotal": "21,150 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_43_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 44,
+    "title": "2.5 Cr /acre in Chicholi  P.C. No. 4 - Nagpur (dist)",
+    "slug": "2-5-cr-acre-in-chicholi-p-c-no-4-nagpur-dist-aurangabad",
+    "location": {
+      "village": "Chicholi  P.C. No. 4",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.8274,
+      "lng": 75.3345
+    },
+    "price": {
+      "perAcre": 25000000,
+      "total": 0,
+      "displayPrice": "2.5 Cr /acre",
+      "displayTotal": "2.5 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_44_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 45,
+    "title": "3.5 Cr /acre in Lava - Nagpur (dist)",
+    "slug": "3-5-cr-acre-in-lava-nagpur-dist-aurangabad",
+    "location": {
+      "village": "Lava",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.9162,
+      "lng": 75.3666
+    },
+    "price": {
+      "perAcre": 35000000,
+      "total": 0,
+      "displayPrice": "3.5 Cr /acre",
+      "displayTotal": "3.5 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_45_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 46,
+    "title": "3.5 Cr /acre in Pawangaon - Nagpur (dist)",
+    "slug": "3-5-cr-acre-in-pawangaon-nagpur-dist-aurangabad",
+    "location": {
+      "village": "Pawangaon",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.8451,
+      "lng": 75.3148
+    },
+    "price": {
+      "perAcre": 35000000,
+      "total": 0,
+      "displayPrice": "3.5 Cr /acre",
+      "displayTotal": "3.5 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_46_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 47,
+    "title": "1.25 Cr /acre in Yerla - Nagpur (dist)",
+    "slug": "1-25-cr-acre-in-yerla-nagpur-dist-aurangabad",
+    "location": {
+      "village": "Yerla",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.8505,
+      "lng": 75.3429
+    },
+    "price": {
+      "perAcre": 12500000,
+      "total": 0,
+      "displayPrice": "1.25 Cr /acre",
+      "displayTotal": "1.25 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_47_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 48,
+    "title": "22.75 lakhs for full property in Ajani - Nagpur (dist)",
+    "slug": "22-75-lakhs-for-full-property-in-ajani-nagpur-dist-aurangabad",
+    "location": {
+      "village": "Ajani",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.9021,
+      "lng": 75.3133
+    },
+    "price": {
+      "perAcre": 0,
+      "total": 2275000,
+      "displayPrice": "22.75 lakhs for full property",
+      "displayTotal": "22.75 lakhs for full property"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_48_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 49,
+    "title": "2 Cr /acre in Asoli - Nagpur (dist)",
+    "slug": "2-cr-acre-in-asoli-nagpur-dist-aurangabad",
+    "location": {
+      "village": "Asoli",
+      "district": "Aurangabad",
+      "state": "Maharashtra",
+      "lat": 19.8349,
+      "lng": 75.3861
+    },
+    "price": {
+      "perAcre": 20000000,
+      "total": 0,
+      "displayPrice": "2 Cr /acre",
+      "displayTotal": "2 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_49_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 50,
+    "title": "85,500 /sq yard in Nari - Nagpur (dist)",
+    "slug": "85-500-sq-yard-in-nari-nagpur-dist-nagpur",
+    "location": {
+      "village": "Nari",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.131,
+      "lng": 79.0519
+    },
+    "price": {
+      "perAcre": 413820000,
+      "total": 0,
+      "displayPrice": "85,500 /sq yard",
+      "displayTotal": "85,500 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_50_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 51,
+    "title": "49,500 /sq yard in Takli(zingabai) - Nagpur (dist)",
+    "slug": "49-500-sq-yard-in-takli-zingabai-nagpur-dist-nagpur",
+    "location": {
+      "village": "Takli(zingabai)",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.1298,
+      "lng": 79.0796
+    },
+    "price": {
+      "perAcre": 239580000,
+      "total": 0,
+      "displayPrice": "49,500 /sq yard",
+      "displayTotal": "49,500 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_51_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 52,
+    "title": "1,53,000 /sq yard in Somalwada - Nagpur (dist)",
+    "slug": "1-53-000-sq-yard-in-somalwada-nagpur-dist-nagpur",
+    "location": {
+      "village": "Somalwada",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.165,
+      "lng": 79.1253
+    },
+    "price": {
+      "perAcre": 740520000,
+      "total": 0,
+      "displayPrice": "1,53,000 /sq yard",
+      "displayTotal": "1,53,000 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_52_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 53,
+    "title": "46,667 /sq yard in Wanjara - Nagpur (dist)",
+    "slug": "46-667-sq-yard-in-wanjara-nagpur-dist-nagpur",
+    "location": {
+      "village": "Wanjara",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.0971,
+      "lng": 79.0489
+    },
+    "price": {
+      "perAcre": 225868280,
+      "total": 0,
+      "displayPrice": "46,667 /sq yard",
+      "displayTotal": "46,667 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_53_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 54,
+    "title": "18,900 /sq yard in Dabha - Nagpur (dist)",
+    "slug": "18-900-sq-yard-in-dabha-nagpur-dist-nagpur",
+    "location": {
+      "village": "Dabha",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.154,
+      "lng": 79.0451
+    },
+    "price": {
+      "perAcre": 91476000,
+      "total": 0,
+      "displayPrice": "18,900 /sq yard",
+      "displayTotal": "18,900 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_54_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 55,
+    "title": "21,150 /sq yard in Dabha - Nagpur (dist)",
+    "slug": "21-150-sq-yard-in-dabha-nagpur-dist-nagpur",
+    "location": {
+      "village": "Dabha",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.1277,
+      "lng": 79.0561
+    },
+    "price": {
+      "perAcre": 102366000,
+      "total": 0,
+      "displayPrice": "21,150 /sq yard",
+      "displayTotal": "21,150 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_55_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 56,
+    "title": "2.5 Cr /acre in Chicholi  P.C. No. 4 - Nagpur (dist)",
+    "slug": "2-5-cr-acre-in-chicholi-p-c-no-4-nagpur-dist-nagpur",
+    "location": {
+      "village": "Chicholi  P.C. No. 4",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.168,
+      "lng": 79.1231
+    },
+    "price": {
+      "perAcre": 25000000,
+      "total": 0,
+      "displayPrice": "2.5 Cr /acre",
+      "displayTotal": "2.5 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_56_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 57,
+    "title": "3.5 Cr /acre in Lava - Nagpur (dist)",
+    "slug": "3-5-cr-acre-in-lava-nagpur-dist-nagpur",
+    "location": {
+      "village": "Lava",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.1544,
+      "lng": 79.1262
+    },
+    "price": {
+      "perAcre": 35000000,
+      "total": 0,
+      "displayPrice": "3.5 Cr /acre",
+      "displayTotal": "3.5 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_57_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 58,
+    "title": "3.5 Cr /acre in Pawangaon - Nagpur (dist)",
+    "slug": "3-5-cr-acre-in-pawangaon-nagpur-dist-nagpur",
+    "location": {
+      "village": "Pawangaon",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.1399,
+      "lng": 79.0963
+    },
+    "price": {
+      "perAcre": 35000000,
+      "total": 0,
+      "displayPrice": "3.5 Cr /acre",
+      "displayTotal": "3.5 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_58_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 59,
+    "title": "1.25 Cr /acre in Yerla - Nagpur (dist)",
+    "slug": "1-25-cr-acre-in-yerla-nagpur-dist-nagpur",
+    "location": {
+      "village": "Yerla",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.1346,
+      "lng": 79.1121
+    },
+    "price": {
+      "perAcre": 12500000,
+      "total": 0,
+      "displayPrice": "1.25 Cr /acre",
+      "displayTotal": "1.25 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_59_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 60,
+    "title": "22.75 lakhs for full property in Ajani - Nagpur (dist)",
+    "slug": "22-75-lakhs-for-full-property-in-ajani-nagpur-dist-nagpur",
+    "location": {
+      "village": "Ajani",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.1454,
+      "lng": 79.0568
+    },
+    "price": {
+      "perAcre": 0,
+      "total": 2275000,
+      "displayPrice": "22.75 lakhs for full property",
+      "displayTotal": "22.75 lakhs for full property"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_60_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 61,
+    "title": "2 Cr /acre in Asoli - Nagpur (dist)",
+    "slug": "2-cr-acre-in-asoli-nagpur-dist-nagpur",
+    "location": {
+      "village": "Asoli",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "lat": 21.1373,
+      "lng": 79.0905
+    },
+    "price": {
+      "perAcre": 20000000,
+      "total": 0,
+      "displayPrice": "2 Cr /acre",
+      "displayTotal": "2 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_61_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 62,
+    "title": "26,000 /sq yard in Gangapur - Nashik (dist)",
+    "slug": "26-000-sq-yard-in-gangapur-nashik-dist-nashik",
+    "location": {
+      "village": "Gangapur",
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "lat": 20.022,
+      "lng": 73.8032
+    },
+    "price": {
+      "perAcre": 125840000,
+      "total": 0,
+      "displayPrice": "26,000 /sq yard",
+      "displayTotal": "26,000 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_62_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 63,
+    "title": "7,51,000 /sq yard in Nashik Shahar 2 - Nashik (dist)",
+    "slug": "7-51-000-sq-yard-in-nashik-shahar-2-nashik-dist-nashik",
+    "location": {
+      "village": "Nashik Shahar 2",
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "lat": 19.9807,
+      "lng": 73.7447
+    },
+    "price": {
+      "perAcre": 3634840000,
+      "total": 0,
+      "displayPrice": "7,51,000 /sq yard",
+      "displayTotal": "7,51,000 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_63_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 64,
+    "title": "60,000 /sq yard in Nashikshahar 5 - Nashik (dist)",
+    "slug": "60-000-sq-yard-in-nashikshahar-5-nashik-dist-nashik",
+    "location": {
+      "village": "Nashikshahar 5",
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "lat": 19.9509,
+      "lng": 73.8108
+    },
+    "price": {
+      "perAcre": 290400000,
+      "total": 0,
+      "displayPrice": "60,000 /sq yard",
+      "displayTotal": "60,000 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_64_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 65,
+    "title": "7,500 /sq yard in Mahirawani - Nashik (dist)",
+    "slug": "7-500-sq-yard-in-mahirawani-nashik-dist-nashik",
+    "location": {
+      "village": "Mahirawani",
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "lat": 20.0286,
+      "lng": 73.7418
+    },
+    "price": {
+      "perAcre": 36300000,
+      "total": 0,
+      "displayPrice": "7,500 /sq yard",
+      "displayTotal": "7,500 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_65_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 66,
+    "title": "4 Cr /acre in Jalalpur - Nashik (dist)",
+    "slug": "4-cr-acre-in-jalalpur-nashik-dist-nashik",
+    "location": {
+      "village": "Jalalpur",
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "lat": 20.021,
+      "lng": 73.7928
+    },
+    "price": {
+      "perAcre": 40000000,
+      "total": 0,
+      "displayPrice": "4 Cr /acre",
+      "displayTotal": "4 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_66_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 67,
+    "title": "1.8 Cr for full property in Adgaon 2 - Nashik (dist)",
+    "slug": "1-8-cr-for-full-property-in-adgaon-2-nashik-dist-nashik",
+    "location": {
+      "village": "Adgaon 2",
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "lat": 19.9754,
+      "lng": 73.8098
+    },
+    "price": {
+      "perAcre": 0,
+      "total": 18000000,
+      "displayPrice": "1.8 Cr for full property",
+      "displayTotal": "1.8 Cr for full property"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_67_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 68,
+    "title": "48.4 lakhs for full property in Chandshi - Nashik (dist)",
+    "slug": "48-4-lakhs-for-full-property-in-chandshi-nashik-dist-nashik",
+    "location": {
+      "village": "Chandshi",
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "lat": 20.0459,
+      "lng": 73.8144
+    },
+    "price": {
+      "perAcre": 0,
+      "total": 4840000,
+      "displayPrice": "48.4 lakhs for full property",
+      "displayTotal": "48.4 lakhs for full property"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_68_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 69,
+    "title": "5.2 Cr /acre in Mungsare - Nashik (dist)",
+    "slug": "5-2-cr-acre-in-mungsare-nashik-dist-nashik",
+    "location": {
+      "village": "Mungsare",
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "lat": 19.95,
+      "lng": 73.8094
+    },
+    "price": {
+      "perAcre": 52000000,
+      "total": 0,
+      "displayPrice": "5.2 Cr /acre",
+      "displayTotal": "5.2 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_69_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 70,
+    "title": "1,10,000 /sq yard in Baner - Pune (dist)",
+    "slug": "1-10-000-sq-yard-in-baner-pune-dist-pune",
+    "location": {
+      "village": "Baner",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "lat": 18.4771,
+      "lng": 73.8214
+    },
+    "price": {
+      "perAcre": 532400000,
+      "total": 0,
+      "displayPrice": "1,10,000 /sq yard",
+      "displayTotal": "1,10,000 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_70_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 71,
+    "title": "16,529 /sq yard in Awhalwadi - Pune (dist)",
+    "slug": "16-529-sq-yard-in-awhalwadi-pune-dist-pune",
+    "location": {
+      "village": "Awhalwadi",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "lat": 18.549,
+      "lng": 73.8633
+    },
+    "price": {
+      "perAcre": 80000360,
+      "total": 0,
+      "displayPrice": "16,529 /sq yard",
+      "displayTotal": "16,529 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_71_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 72,
+    "title": "90,000 /sq yard in Baner - Pune (dist)",
+    "slug": "90-000-sq-yard-in-baner-pune-dist-pune",
+    "location": {
+      "village": "Baner",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "lat": 18.5049,
+      "lng": 73.8577
+    },
+    "price": {
+      "perAcre": 435600000,
+      "total": 0,
+      "displayPrice": "90,000 /sq yard",
+      "displayTotal": "90,000 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_72_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 73,
+    "title": "63,000 /sq yard in Mundhava - Pune (dist)",
+    "slug": "63-000-sq-yard-in-mundhava-pune-dist-pune",
+    "location": {
+      "village": "Mundhava",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "lat": 18.5248,
+      "lng": 73.8313
+    },
+    "price": {
+      "perAcre": 304920000,
+      "total": 0,
+      "displayPrice": "63,000 /sq yard",
+      "displayTotal": "63,000 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_73_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 74,
+    "title": "21,000 /sq yard in Fursungi - Pune (dist)",
+    "slug": "21-000-sq-yard-in-fursungi-pune-dist-pune",
+    "location": {
+      "village": "Fursungi",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "lat": 18.4881,
+      "lng": 73.8366
+    },
+    "price": {
+      "perAcre": 101640000,
+      "total": 0,
+      "displayPrice": "21,000 /sq yard",
+      "displayTotal": "21,000 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_74_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 75,
+    "title": "62,307 /sq yard in Baner - Pune (dist)",
+    "slug": "62-307-sq-yard-in-baner-pune-dist-pune",
+    "location": {
+      "village": "Baner",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "lat": 18.5404,
+      "lng": 73.8437
+    },
+    "price": {
+      "perAcre": 301565880,
+      "total": 0,
+      "displayPrice": "62,307 /sq yard",
+      "displayTotal": "62,307 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_75_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 76,
+    "title": "45,000 /sq yard in Wanavdi - Pune (dist)",
+    "slug": "45-000-sq-yard-in-wanavdi-pune-dist-pune",
+    "location": {
+      "village": "Wanavdi",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "lat": 18.4979,
+      "lng": 73.8802
+    },
+    "price": {
+      "perAcre": 217800000,
+      "total": 0,
+      "displayPrice": "45,000 /sq yard",
+      "displayTotal": "45,000 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_76_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 77,
+    "title": "95,745 /sq yard in Ghorpadi - Pune (dist)",
+    "slug": "95-745-sq-yard-in-ghorpadi-pune-dist-pune",
+    "location": {
+      "village": "Ghorpadi",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "lat": 18.5088,
+      "lng": 73.8269
+    },
+    "price": {
+      "perAcre": 463405800,
+      "total": 0,
+      "displayPrice": "95,745 /sq yard",
+      "displayTotal": "95,745 /sq yard"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_77_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 78,
+    "title": "1 Cr /acre in Manjari Bk - Pune (dist)",
+    "slug": "1-cr-acre-in-manjari-bk-pune-dist-pune",
+    "location": {
+      "village": "Manjari Bk",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "lat": 18.5101,
+      "lng": 73.829
+    },
+    "price": {
+      "perAcre": 10000000,
+      "total": 0,
+      "displayPrice": "1 Cr /acre",
+      "displayTotal": "1 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_78_0.jpg"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 79,
+    "title": "2 Cr /acre in Lahagaon - Pune (dist)",
+    "slug": "2-cr-acre-in-lahagaon-pune-dist-pune",
+    "location": {
+      "village": "Lahagaon",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "lat": 18.5482,
+      "lng": 73.8163
+    },
+    "price": {
+      "perAcre": 20000000,
+      "total": 0,
+      "displayPrice": "2 Cr /acre",
+      "displayTotal": "2 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_79_0.JPG"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 80,
+    "title": "19.44 Cr /acre in Kothrud - Pune (dist)",
+    "slug": "19-44-cr-acre-in-kothrud-pune-dist-pune",
+    "location": {
+      "village": "Kothrud",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "lat": 18.5434,
+      "lng": 73.8339
+    },
+    "price": {
+      "perAcre": 194400000,
+      "total": 0,
+      "displayPrice": "19.44 Cr /acre",
+      "displayTotal": "19.44 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_80_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 81,
+    "title": "9 Cr for full property in Bavadhan Bk - Pune (dist)",
+    "slug": "9-cr-for-full-property-in-bavadhan-bk-pune-dist-pune",
+    "location": {
+      "village": "Bavadhan Bk",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "lat": 18.5023,
+      "lng": 73.8832
+    },
+    "price": {
+      "perAcre": 0,
+      "total": 90000000,
+      "displayPrice": "9 Cr for full property",
+      "displayTotal": "9 Cr for full property"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_81_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 82,
+    "title": "80 Cr /acre in Yerawada - Pune (dist)",
+    "slug": "80-cr-acre-in-yerawada-pune-dist-pune",
+    "location": {
+      "village": "Yerawada",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "lat": 18.4917,
+      "lng": 73.8711
+    },
+    "price": {
+      "perAcre": 800000000,
+      "total": 0,
+      "displayPrice": "80 Cr /acre",
+      "displayTotal": "80 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_82_0.png"
+    ],
+    "postedTime": "Today"
+  },
+  {
+    "id": 83,
+    "title": "40 Cr /acre in Bopodi - Pune (dist)",
+    "slug": "40-cr-acre-in-bopodi-pune-dist-pune",
+    "location": {
+      "village": "Bopodi",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "lat": 18.5426,
+      "lng": 73.9011
+    },
+    "price": {
+      "perAcre": 400000000,
+      "total": 0,
+      "displayPrice": "40 Cr /acre",
+      "displayTotal": "40 Cr /acre"
+    },
+    "size": {
+      "acres": 0,
+      "guntas": 0
+    },
+    "verified": false,
+    "premium": false,
+    "tags": [
+      "Premium Location",
+      "Village Property"
+    ],
+    "images": [
+      "/downloaded_images/property_83_0.JPG"
+    ],
+    "postedTime": "Today"
   }
 ];

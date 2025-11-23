@@ -11,7 +11,7 @@ const PropertyCard = ({ data }) => {
 
   const handleContactClick = (e) => {
     e.stopPropagation();
-    window.location.href = `tel:+917506980918`;
+    window.location.href = `tel:+917738377791`;
   };
 
   const handleShareClick = (e) => {
@@ -23,17 +23,17 @@ const PropertyCard = ({ data }) => {
   };
 
   return (
-    <div 
+    <div
       onClick={handleCardClick}
       className="group bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl hover:shadow-emerald-900/5 transition-all duration-300 cursor-pointer flex flex-col sm:flex-row h-full sm:h-48 relative"
     >
-      
+
       {/* Image Section */}
       <div className="sm:w-48 md:w-56 lg:w-64 h-48 sm:h-auto relative shrink-0">
-        <img 
-          src={data.images[0]} 
-          alt={data.title} 
-          className="w-full h-full object-cover group-hover:scale-105 transition duration-700" 
+        <img
+          src={data.images[0]}
+          alt={data.title}
+          className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
         />
         <div className="absolute top-2 left-2 flex flex-col gap-1">
           {data.verified && (
@@ -47,7 +47,7 @@ const PropertyCard = ({ data }) => {
             </span>
           )}
         </div>
-        <button 
+        <button
           onClick={handleLikeClick}
           className="absolute top-2 right-2 p-1.5 bg-black/30 backdrop-blur-sm hover:bg-black/50 rounded-full text-white transition"
         >
@@ -57,7 +57,7 @@ const PropertyCard = ({ data }) => {
 
       {/* Content Section */}
       <div className="p-4 flex flex-col justify-between flex-1">
-        
+
         {/* Top Info */}
         <div>
           <div className="flex justify-between items-start mb-1">
@@ -68,7 +68,7 @@ const PropertyCard = ({ data }) => {
               #{data.id}
             </span>
           </div>
-          
+
           <p className="text-slate-500 text-xs sm:text-sm flex items-center gap-1 mb-2">
             <MapPin className="w-3 h-3" /> {data.location.village}, {data.location.district}
           </p>
@@ -95,13 +95,13 @@ const PropertyCard = ({ data }) => {
           </div>
 
           <div className="flex gap-2">
-            <button 
+            <button
               onClick={handleShareClick}
               className="p-2 text-slate-400 hover:text-emerald-600 hover:bg-emerald-50 rounded-lg transition"
             >
               <Share2 className="w-4 h-4" />
             </button>
-            <button 
+            <button
               onClick={handleContactClick}
               className="bg-slate-900 hover:bg-slate-800 text-white px-4 py-2 rounded-lg text-xs sm:text-sm font-semibold flex items-center gap-2 transition"
             >

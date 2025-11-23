@@ -69,7 +69,7 @@ const PropertyDetails = () => {
                     alt={property.title}
                     className="w-full h-full object-cover"
                   />
-                  
+
                   {/* Navigation Arrows */}
                   {property.images.length > 1 && (
                     <>
@@ -115,11 +115,10 @@ const PropertyDetails = () => {
                     <button
                       key={index}
                       onClick={() => setCurrentImageIndex(index)}
-                      className={`flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition ${
-                        currentImageIndex === index
+                      className={`flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition ${currentImageIndex === index
                           ? 'border-emerald-600'
                           : 'border-slate-200 hover:border-slate-300'
-                      }`}
+                        }`}
                     >
                       <img src={img} alt={`View ${index + 1}`} className="w-full h-full object-cover" />
                     </button>
@@ -130,7 +129,7 @@ const PropertyDetails = () => {
               {/* Property Details */}
               <div className="bg-white rounded-xl p-6 shadow-md">
                 <h1 className="text-3xl font-bold text-slate-900 mb-4">{property.title}</h1>
-                
+
                 <div className="flex items-center gap-2 text-slate-600 mb-6">
                   <MapPin className="w-5 h-5 text-emerald-600" />
                   <span className="text-lg">
@@ -181,9 +180,9 @@ const PropertyDetails = () => {
                 <div>
                   <h2 className="text-xl font-bold text-slate-900 mb-3">Description</h2>
                   <p className="text-slate-600 leading-relaxed">
-                    This {property.size.acres} acre {property.type} land is located in {property.location.village}, 
-                    {property.location.district}. The property features {property.tags.join(', ').toLowerCase()} 
-                    and is ideal for agricultural or investment purposes. 
+                    This {property.size.acres} acre {property.type} land is located in {property.location.village},
+                    {property.location.district}. The property features {property.tags.join(', ').toLowerCase()}
+                    and is ideal for agricultural or investment purposes.
                     {property.verified && ' This property has been verified by our team for authenticity and clear title.'}
                   </p>
                 </div>
@@ -194,10 +193,10 @@ const PropertyDetails = () => {
             <div className="lg:col-span-1">
               <div className="bg-white rounded-xl p-6 shadow-md sticky top-24">
                 <h3 className="text-xl font-bold text-slate-900 mb-4">Contact Seller</h3>
-                
+
                 <div className="space-y-4 mb-6">
                   <a
-                    href={`tel:+917506980918`}
+                    href={`tel:+917738377791`}
                     className="w-full bg-emerald-600 text-white px-6 py-4 rounded-lg font-semibold text-lg hover:bg-emerald-700 transition shadow-md flex items-center justify-center gap-2"
                   >
                     <Phone className="w-5 h-5" />
@@ -205,7 +204,7 @@ const PropertyDetails = () => {
                   </a>
 
                   <a
-                    href={`https://wa.me/+917506980918/?text=I'm interested in ${property.title} - ${property.id}`}
+                    href={`https://wa.me/+917738377791/?text=I'm interested in ${property.title} - ${property.id}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full bg-green-600 text-white px-6 py-4 rounded-lg font-semibold text-lg hover:bg-green-700 transition shadow-md flex items-center justify-center gap-2"
@@ -216,11 +215,10 @@ const PropertyDetails = () => {
 
                   <button
                     onClick={() => setIsLiked(!isLiked)}
-                    className={`w-full px-6 py-4 rounded-lg font-semibold text-lg transition shadow-md flex items-center justify-center gap-2 ${
-                      isLiked
+                    className={`w-full px-6 py-4 rounded-lg font-semibold text-lg transition shadow-md flex items-center justify-center gap-2 ${isLiked
                         ? 'bg-red-50 text-red-600 border-2 border-red-600'
                         : 'bg-white text-slate-700 border-2 border-slate-200 hover:border-red-200'
-                    }`}
+                      }`}
                   >
                     <Heart className={`w-5 h-5 ${isLiked ? 'fill-red-600' : ''}`} />
                     {isLiked ? 'Saved' : 'Save'}

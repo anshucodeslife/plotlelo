@@ -15,7 +15,7 @@ const PostPropertyModal = ({ isOpen, onClose }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     // Create WhatsApp message
     const message = `
 🏞️ *New Property Listing Request*
@@ -37,9 +37,9 @@ Sent from plotlelo.com
     `.trim();
 
     // Open WhatsApp
-    const whatsappUrl = `https://wa.me/+917506980918/?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/+917738377791/?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
-    
+
     // Reset form and close
     setFormData({
       name: '',
@@ -55,7 +55,7 @@ Sent from plotlelo.com
   return (
     <>
       {/* Backdrop */}
-      <div 
+      <div
         className="fixed inset-0 bg-black/50 z-50"
         onClick={onClose}
       />
@@ -89,7 +89,7 @@ Sent from plotlelo.com
               <input
                 type="text"
                 value={formData.name}
-                onChange={(e) => setFormData({...formData, name: e.target.value})}
+                onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                 className="w-full px-4 py-3 border border-slate-200 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none"
                 required
                 placeholder="Enter your name"
@@ -104,7 +104,7 @@ Sent from plotlelo.com
               <input
                 type="tel"
                 value={formData.phone}
-                onChange={(e) => setFormData({...formData, phone: e.target.value})}
+                onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                 className="w-full px-4 py-3 border border-slate-200 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none"
                 required
                 placeholder="10-digit mobile number"
@@ -122,7 +122,7 @@ Sent from plotlelo.com
                 <input
                   type="text"
                   value={formData.location}
-                  onChange={(e) => setFormData({...formData, location: e.target.value})}
+                  onChange={(e) => setFormData({ ...formData, location: e.target.value })}
                   className="w-full pl-11 pr-4 py-3 border border-slate-200 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none"
                   required
                   placeholder="Village, Mandal, District"
@@ -139,7 +139,7 @@ Sent from plotlelo.com
                 type="number"
                 step="0.01"
                 value={formData.acres}
-                onChange={(e) => setFormData({...formData, acres: e.target.value})}
+                onChange={(e) => setFormData({ ...formData, acres: e.target.value })}
                 className="w-full px-4 py-3 border border-slate-200 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none"
                 required
                 placeholder="e.g., 5.5"
@@ -154,7 +154,7 @@ Sent from plotlelo.com
               <input
                 type="number"
                 value={formData.price}
-                onChange={(e) => setFormData({...formData, price: e.target.value})}
+                onChange={(e) => setFormData({ ...formData, price: e.target.value })}
                 className="w-full px-4 py-3 border border-slate-200 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none"
                 required
                 placeholder="Total price in rupees"
@@ -168,7 +168,7 @@ Sent from plotlelo.com
               </label>
               <textarea
                 value={formData.description}
-                onChange={(e) => setFormData({...formData, description: e.target.value})}
+                onChange={(e) => setFormData({ ...formData, description: e.target.value })}
                 rows="4"
                 className="w-full px-4 py-3 border border-slate-200 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none resize-none"
                 placeholder="Any additional information about the property..."

@@ -17,7 +17,7 @@ const TagAlong = () => {
                 Tag-Along Investment
               </h1>
               <p className="text-xl text-slate-600 leading-relaxed mb-8">
-                Invest in large land parcels alongside plotlelo. Get access to premium land deals 
+                Invest in large land parcels alongside plotlelo. Get access to premium land deals
                 with verified documentation and legal clearance.
               </p>
               <div className="flex items-center gap-4 mb-8">
@@ -27,7 +27,7 @@ const TagAlong = () => {
                 </div>
               </div>
               <a
-                href="https://wa.me/+917506980918/?text=I'm interested in Tag-Along investment"
+                href="https://wa.me/+917738377791/?text=I'm interested in Tag-Along investment"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-emerald-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-emerald-700 transition shadow-lg"
@@ -49,7 +49,7 @@ const TagAlong = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
             How Tag-Along Works
           </h2>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="w-16 h-16 rounded-full bg-emerald-100 flex items-center justify-center mx-auto mb-4">
@@ -90,13 +90,13 @@ const TagAlong = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
             Why Choose Tag-Along?
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-xl border border-slate-200">
               <Shield className="w-12 h-12 text-emerald-600 mb-4" />
               <h3 className="text-2xl font-bold text-slate-900 mb-3">Verified Properties</h3>
               <p className="text-slate-600 leading-relaxed">
-                Every property goes through our rigorous verification process ensuring clear title 
+                Every property goes through our rigorous verification process ensuring clear title
                 and legal compliance.
               </p>
             </div>
@@ -105,7 +105,7 @@ const TagAlong = () => {
               <TrendingUp className="w-12 h-12 text-emerald-600 mb-4" />
               <h3 className="text-2xl font-bold text-slate-900 mb-3">High Potential</h3>
               <p className="text-slate-600 leading-relaxed">
-                We select properties in high-growth areas with strong appreciation potential and 
+                We select properties in high-growth areas with strong appreciation potential and
                 development prospects.
               </p>
             </div>
@@ -114,7 +114,7 @@ const TagAlong = () => {
               <Users className="w-12 h-12 text-emerald-600 mb-4" />
               <h3 className="text-2xl font-bold text-slate-900 mb-3">Shared Investment</h3>
               <p className="text-slate-600 leading-relaxed">
-                Pool resources with other investors to access larger, more lucrative land deals 
+                Pool resources with other investors to access larger, more lucrative land deals
                 that would be difficult individually.
               </p>
             </div>
@@ -140,7 +140,7 @@ const TagAlong = () => {
             Join our Tag-Along program and start building your land portfolio today.
           </p>
           <a
-            href="https://wa.me/+917506980918/?text=I want to know more about Tag-Along investment"
+            href="https://wa.me/+917738377791/?text=I want to know more about Tag-Along investment"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-white text-emerald-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-emerald-50 transition shadow-lg"

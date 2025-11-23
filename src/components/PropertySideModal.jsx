@@ -22,7 +22,7 @@ const PropertySideModal = ({ property, onClose, onNavigate }) => {
   return (
     <>
       {/* Backdrop */}
-      <div 
+      <div
         className="fixed inset-0 bg-black/50 z-[1000]"
         onClick={onClose}
       />
@@ -49,7 +49,7 @@ const PropertySideModal = ({ property, onClose, onNavigate }) => {
               alt={property.title}
               className="w-full h-full object-cover"
             />
-            
+
             {/* Navigation Arrows */}
             {property.images.length > 1 && (
               <>
@@ -91,7 +91,7 @@ const PropertySideModal = ({ property, onClose, onNavigate }) => {
           {/* Property Info */}
           <div className="p-4">
             <h2 className="text-xl font-bold text-slate-900 mb-2">{property.title}</h2>
-            
+
             <div className="flex items-center gap-2 text-slate-600 mb-4">
               <MapPin className="w-4 h-4 text-emerald-600" />
               <span className="text-sm">
@@ -132,7 +132,7 @@ const PropertySideModal = ({ property, onClose, onNavigate }) => {
             {/* Action Buttons */}
             <div className="space-y-2">
               <a
-                href={`tel:+917506980918`}
+                href={`tel:+917738377791`}
                 className="w-full bg-emerald-600 text-white px-4 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition flex items-center justify-center gap-2"
               >
                 <Phone className="w-4 h-4" />

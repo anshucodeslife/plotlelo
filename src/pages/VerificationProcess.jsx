@@ -52,7 +52,7 @@ const VerificationProcess = () => {
               </h1>
             </div>
             <p className="text-xl text-slate-600 leading-relaxed">
-              We eliminate 90% of risks associated with land transactions through our comprehensive 
+              We eliminate 90% of risks associated with land transactions through our comprehensive
               5-step verification process.
             </p>
           </div>
@@ -89,7 +89,7 @@ const VerificationProcess = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
             How We Verify Properties
           </h2>
-          
+
           <div className="space-y-8">
             {steps.map((step, index) => (
               <div key={index} className="flex gap-6 items-start">
@@ -119,7 +119,7 @@ const VerificationProcess = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12 text-center">
             What We Verify
           </h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               "Title Deed Authenticity",
@@ -151,7 +151,7 @@ const VerificationProcess = () => {
             Our verification process ensures your property stands out to serious buyers.
           </p>
           <a
-            href="https://wa.me/+917506980918/?text=I want to list my verified land"
+            href="https://wa.me/+917738377791/?text=I want to list my verified land"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-white text-emerald-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-emerald-50 transition shadow-lg"

@@ -45,7 +45,7 @@ const Contact = () => {
               <h2 className="text-3xl font-bold text-slate-900 mb-8">
                 Contact Information
               </h2>
-              
+
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-lg bg-emerald-100 flex items-center justify-center flex-shrink-0">
@@ -53,8 +53,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-1">Phone</h3>
-                    <a href="tel:+917506980918" className="text-emerald-600 hover:text-emerald-700">
-                      +91 75069 80918
+                    <a href="tel:+917738377791" className="text-emerald-600 hover:text-emerald-700">
+                      +91 77383 77791
                     </a>
                   </div>
                 </div>
@@ -90,7 +90,7 @@ const Contact = () => {
                 <h3 className="font-bold text-slate-900 mb-2">Prefer WhatsApp?</h3>
                 <p className="text-slate-600 mb-4">Get instant responses on WhatsApp</p>
                 <a
-                  href="https://wa.me/+917506980918/?text=Hello plotlelo"
+                  href="https://wa.me/+917738377791/?text=Hello plotlelo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-emerald-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-emerald-700 transition"
@@ -106,7 +106,7 @@ const Contact = () => {
               <h2 className="text-3xl font-bold text-slate-900 mb-8">
                 Send us a Message
               </h2>
-              
+
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label className="block text-sm font-semibold text-slate-700 mb-2">
@@ -115,7 +115,7 @@ const Contact = () => {
                   <input
                     type="text"
                     value={formData.name}
-                    onChange={(e) => setFormData({...formData, name: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     className="w-full px-4 py-3 border border-slate-200 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none"
                     required
                   />
@@ -128,7 +128,7 @@ const Contact = () => {
                   <input
                     type="email"
                     value={formData.email}
-                    onChange={(e) => setFormData({...formData, email: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     className="w-full px-4 py-3 border border-slate-200 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none"
                     required
                   />
@@ -141,7 +141,7 @@ const Contact = () => {
                   <input
                     type="tel"
                     value={formData.phone}
-                    onChange={(e) => setFormData({...formData, phone: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     className="w-full px-4 py-3 border border-slate-200 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none"
                     required
                   />
@@ -153,7 +153,7 @@ const Contact = () => {
                   </label>
                   <textarea
                     value={formData.message}
-                    onChange={(e) => setFormData({...formData, message: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     rows="5"
                     className="w-full px-4 py-3 border border-slate-200 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none resize-none"
                     required
