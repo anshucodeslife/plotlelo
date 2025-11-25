@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
+import normalizeImagePath from '../utils/normalizeImagePath';
 import Footer from '../components/layout/Footer';
 import { useAuth } from '../context/AuthContext';
 import { Heart, Share2, MapPin, Phone, Plus } from 'lucide-react';
@@ -26,6 +27,8 @@ const Dashboard = () => {
     logout();
     navigate('/');
   };
+
+  
 
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col">
@@ -129,7 +132,7 @@ const Dashboard = () => {
                   <div key={property.id} className="bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-lg transition">
                     <div className="relative h-48">
                       <img
-                        src={property.images[0]}
+                        src={normalizeImagePath(property.images[0])}
                         alt={property.title}
                         className="w-full h-full object-cover"
                       />
@@ -208,7 +211,7 @@ const Dashboard = () => {
                   <div key={property.id} className="bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-lg transition">
                     <div className="relative h-48">
                       <img
-                        src={property.images[0]}
+                        src={normalizeImagePath(property.images[0])}
                         alt={property.title}
                         className="w-full h-full object-cover"
                       />

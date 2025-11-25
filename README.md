@@ -14,3 +14,16 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Images and Mock Data (Developer Notes)
+
+If images from `scraped_properties.json` are not showing in the app, ensure you do the following:
+
+1. Copy `downloaded_images/` from the repository root into `public/downloaded_images` so the dev server serves them at `/downloaded_images/`.
+	- Run: `npm run copy-images` to copy all images to `public/downloaded_images`.
+2. (Optional) Regenerate `mockData.js` from `scraped_properties.json` to fix image paths:
+	- Run: `npm run generate-mock-data` (this runs `convert-data.cjs` which replaces `./downloaded_images/` with `/downloaded_images/`).
+3. Start the dev server: `npm run dev`.
+
+If images still don't appear, the app normalizes image paths at runtime to convert `./downloaded_images/...` to `/downloaded_images/...`.
+

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ShieldCheck, Heart, Phone, Share2, MapPin } from 'lucide-react';
+import normalizeImagePath from '../utils/normalizeImagePath';
 
 const PropertyCard = ({ data }) => {
   const navigate = useNavigate();
@@ -22,6 +23,8 @@ const PropertyCard = ({ data }) => {
     e.stopPropagation();
   };
 
+  
+
   return (
     <div
       onClick={handleCardClick}
@@ -31,7 +34,7 @@ const PropertyCard = ({ data }) => {
       {/* Image Section */}
       <div className="sm:w-48 md:w-56 lg:w-64 h-48 sm:h-auto relative shrink-0">
         <img
-          src={data.images[0]}
+          src={normalizeImagePath(data.images[0])}
           alt={data.title}
           className="w-full h-full object-cover group-hover:scale-105 transition duration-700"
         />

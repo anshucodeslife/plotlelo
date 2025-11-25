@@ -10,7 +10,7 @@ try {
     const properties = scrapedData.data.map(prop => {
         return {
             ...prop,
-            images: prop.images.map(img => img.replace('./downloaded_images/', '/downloaded_images/'))
+            images: prop.images.map(img => img.replace(/^\.\/?downloaded_images\//, '/downloaded_images/'))
         };
     });
 

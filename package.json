@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "copy-images": "node scripts/copy-images.cjs",
+    "generate-mock-data": "node convert-data.cjs",
     "lint": "eslint .",
     "preview": "vite preview"
   },

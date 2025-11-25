@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { X, MapPin, Phone, Share2, Heart, Maximize, ChevronLeft, ChevronRight } from 'lucide-react';
+import normalizeImagePath from '../utils/normalizeImagePath';
 
 const PropertySideModal = ({ property, onClose, onNavigate }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -18,6 +19,8 @@ const PropertySideModal = ({ property, onClose, onNavigate }) => {
   const prevImage = () => {
     setCurrentImageIndex((prev) => (prev - 1 + property.images.length) % property.images.length);
   };
+
+  
 
   return (
     <>
@@ -45,7 +48,7 @@ const PropertySideModal = ({ property, onClose, onNavigate }) => {
           {/* Image Gallery */}
           <div className="relative h-48 bg-slate-200">
             <img
-              src={property.images[currentImageIndex]}
+              src={normalizeImagePath(property.images[currentImageIndex])}
               alt={property.title}
               className="w-full h-full object-cover"
             />

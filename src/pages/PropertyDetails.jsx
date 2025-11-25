@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/layout/Footer';
 import { MapPin, Phone, Share2, Heart, ArrowLeft, ChevronLeft, ChevronRight, Shield, Calendar, Maximize } from 'lucide-react';
+import normalizeImagePath from '../utils/normalizeImagePath';
 import { PROPERTIES } from '../data/mockData';
 
 const PropertyDetails = () => {
@@ -42,6 +43,8 @@ const PropertyDetails = () => {
     setCurrentImageIndex((prev) => (prev - 1 + property.images.length) % property.images.length);
   };
 
+  
+
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col">
       <Navbar />
@@ -65,7 +68,7 @@ const PropertyDetails = () => {
                 {/* Main Image */}
                 <div className="relative h-96 md:h-[500px] bg-slate-200">
                   <img
-                    src={property.images[currentImageIndex]}
+                    src={normalizeImagePath(property.images[currentImageIndex])}
                     alt={property.title}
                     className="w-full h-full object-cover"
                   />
@@ -120,7 +123,7 @@ const PropertyDetails = () => {
                           : 'border-slate-200 hover:border-slate-300'
                         }`}
                     >
-                      <img src={img} alt={`View ${index + 1}`} className="w-full h-full object-cover" />
+                      <img src={normalizeImagePath(img)} alt={`View ${index + 1}`} className="w-full h-full object-cover" />
                     </button>
                   ))}
                 </div>
